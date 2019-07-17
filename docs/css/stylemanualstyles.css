@@ -1,6 +1,35 @@
+/* General styles */
+
+
+/* CT Abstract */
 .abstract {
     margin: 1.2em 0 2em;
     font-size: larger;
     color: #6d6d6d;
     max-width: 672px;
+}
+
+/* CT Example */
+.example {    
+    margin: 2em 0 2em;
+    border: 2px solid #808080;
+    max-width: 672px;
+}
+
+.example p {
+    max-width: 100%;
+}
+
+.example-heading {    
+    font-weight: bold;
+    padding: 0.5em 0.5em 0.5em 1em;
+    background-color: #f5f5f5;
+}
+
+.example-text {
+    padding: 0em 1em 0em 2em;
+}
+
+.example-text:last-child {
+    padding: 0em 1em 1em 2em;
 }
