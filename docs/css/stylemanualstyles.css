@@ -29,6 +29,21 @@ h2, h3 {
     margin-right: 1rem;
 }
 
+/* CT Source attribution */
+.source-attribution {
+    float: right;
+    margin-top: 1rem;
+}
+
+.source-attribution p {
+    font-size: small;
+    color: #636363;
+}
+
+.source-attribution p:nth-child(odd) {
+    font-weight: bold;
+}
+
 /* CT Example */
 .example {    
     margin: 2em 0 1.5rem;
@@ -100,6 +115,17 @@ h2, h3 {
 .rationale {
     background-color: #f5f5f5;
     padding: 1rem;    
+    margin-top: 2.5rem;
+}
+
+.rationale-links {
+    margin-top: 1rem;
+}
+
+.rationale-links p {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
 }
 
 /* CT More resources */
@@ -110,5 +136,5 @@ h2, h3 {
 .more-resources-links p {
     margin-bottom: 1rem;
     margin-left: 1rem;
-    margin-top: 0;
+    margin-top: 0.5rem;
 }
