@@ -48,6 +48,7 @@ h2, h3 {
 .example {    
     margin: 2em 0 1.5rem;
     border: 3px solid #808080;
+    border-radius: 4px;
     /* max-width: 672px; */
 }
 
@@ -79,7 +80,7 @@ h2, h3 {
 .example-do {
     /* margin-top: 24px; */
     border: 3px solid #0CAC78;
-    border-radius: 5px;
+    border-radius: 4px;
     margin: 1rem;
     padding-top: 1rem;
 }
@@ -97,7 +98,7 @@ h2, h3 {
 .example-dont {
     /* margin-top: 24px; */
     border: 3px solid #FF635C;
-    border-radius: 5px;
+    border-radius: 4px;
     margin: 1rem;
     padding-top: 1rem;
 }
@@ -134,6 +135,17 @@ h2, h3 {
 }
 
 .more-resources-links p {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* CT Mandatory */
+.mandatory-links {
+    margin-top: 1rem;
+}
+
+.mandatory-links p {
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-top: 0.5rem;
