@@ -25,7 +25,7 @@ h2, h3 {
 
 /* CT Example */
 .example {    
-    margin: 2em 0 2em;
+    margin: 2em 0 0;
     border: 3px solid #808080;
     max-width: 672px;
 }
@@ -87,4 +87,15 @@ h2, h3 {
     border: 3px solid #FF635C;
     border-radius: 50%;
     background: url(../assets/img/outline-close-24px.svg);
+}
+
+/* CT More resources */
+.more-resources-links {
+    margin-top: 1rem;
+}
+
+.more-resources-links p {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 0;
 }
