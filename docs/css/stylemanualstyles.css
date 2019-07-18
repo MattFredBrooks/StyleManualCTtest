@@ -129,23 +129,41 @@ h2, h3 {
     margin-top: 0.5rem;
 }
 
-/* CT More resources */
-.more-resources-links {
-    margin-top: 1rem;
-}
-
-.more-resources-links p {
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-}
-
 /* CT Mandatory */
 .mandatory-links {
     margin-top: 1rem;
 }
 
 .mandatory-links p {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* CT Checklist */
+.checklist {
+    margin-top: 1.5rem;    
+}
+
+.checklist h4 {
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+
+.checklist p, li {
+    margin-left: 4.1rem;
+}
+
+.check-tick {
+    width: 21px;
+}
+
+/* CT More resources */
+.more-resources-links {
+    margin-top: 1rem;
+}
+
+.more-resources-links p {
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-top: 0.5rem;
