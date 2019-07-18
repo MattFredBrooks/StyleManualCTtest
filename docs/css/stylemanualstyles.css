@@ -23,11 +23,16 @@ h2, h3 {
     max-width: 672px;
 }
 
+.back-to-toc {
+    float: right;
+    margin-top: 1rem;
+}
+
 /* CT Example */
 .example {    
-    margin: 2em 0 0;
+    margin: 2em 0 1.5rem;
     border: 3px solid #808080;
-    max-width: 672px;
+    /* max-width: 672px; */
 }
 
 .example p {
@@ -72,6 +77,7 @@ h2, h3 {
     background: url(../assets/img/outline-check-24px.svg);
 }
 
+/* Example type Don't */
 .example-dont {
     /* margin-top: 24px; */
     border: 3px solid #FF635C;
