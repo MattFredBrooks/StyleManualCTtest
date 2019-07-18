@@ -16,7 +16,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 
-	<title>Australian Government Design System | Content</title>
+	<title>Style Manual</title>
 
 	<script type="text/javascript">
 		var $html = document.documentElement; if ($html.classList) $html.classList.remove("no-js"), $html.classList.add("js"); else { var className = "no-js"; $html.className = $html.className.replace(new RegExp("(^|\\b)" + className.split(" ").join("|") + "(\\b|$)", "gi"), " "), $html.className += " js" }
@@ -59,8 +59,8 @@
 					<a class="au-header__brand" href="#">
 						<img class="au-header__brand-image" alt="Insert alternate text here" src="../assets/img/header-logo-agov.png">
 						<div class="au-header__text">
-						<h2 class="au-header__heading">Name of website</h2>
-						<div class="au-header__subline">Simple explaination of the website</div>
+						<h2 class="au-header__heading">Style Manual</h2>
+						<!-- <div class="au-header__subline">Simple explaination of the website</div> -->
 						</div>
 					</a>
 				</div>
@@ -185,7 +185,8 @@
 						</nav>	
 						
 						<!-- CT Rule -->
-						<h2>The rule</h2>
+						<h2 class="first-subheading">The rule</h2>
+						<a  href="#"><img class="link-icon" src="../assets/img/link-icon.svg"></a>	
 						<p>The particulars of your body copy will be determined by the topic of your page. Regardless of topic, it’s a good practice to follow the inverted pyramid structure when writing copy: Begin with the information that’s most important to your users and then present information of less importance.</p>
 						<p>Keep each section and subsection focused — a good approach is to include one theme (topic) per section.</p>
 
@@ -197,11 +198,54 @@
 							<p class="example-text">10 to 9999</p>
 						</div>
 						
-						<!-- CT Rationale -->
-						<h3>Why</h3>						
+						<!-- CT Rationale -->							
+						<h3>Why</h3>	
+						<a  href="#"><img class="link-icon" src="../assets/img/link-icon.svg"></a>								
 						<p>Norman Nielson Group tells us the science behind why it’s easier to read numbers on screen.</p>
 						<br>
 						<a href="#">Why it’s easier to read numbers on screen</a>
+
+						<!-- CT SubRule -->
+						<div class="heading-two-link">
+							<h2>How to apply the rule</h2>
+							<a  href="#"><img class="link-icon" src="../assets/img/link-icon.svg"></a>
+						</div>
+						<h3>Large numbers</h3>
+						<a  href="#"><img class="link-icon" src="../assets/img/link-icon.svg"></a>
+						<p>Abbreviate thousand, million, billion and trillion in headings, tables and graphics.</p>
+						<!-- CT Example -->
+						<div class="example">
+							<p class="example-heading">Example</p>
+							<p class="example-text">1k</p>
+							<p class="example-text">2m</p>
+							<p class="example-text">3bn</p>
+						</div>
+
+						<!-- CT SubRule -->						
+						<h3>Accessible captions</h3>
+						<a  href="#"><img class="link-icon" src="../assets/img/link-icon.svg"></a>
+						<p>Add ‘Caption: description of the image…’ below the image.</p>
+						<!-- CT Example Do/Don't -->						
+						<div class="example">
+							<p class="example-heading">Example</p>
+							<!-- Example type Do -->
+							<div class="example-do">
+								<div class="do-icon">
+									<p class="example-heading-do-dont">Do</p>
+								</div>								
+								<p class="example-text">Do use the <code>figure</figure></code> tag when adding images.</p>
+								<p class="example-text">Do add an <code>alt</code> attribute to the <code>img</code> tag that describes the content of the image.</p>				
+							</div>
+							<!-- Example type Don't -->
+							<div class="example-dont">
+									<div class="dont-icon">
+										<p class="example-heading-do-dont">Don't</p>
+									</div>								
+									<p class="example-text">Don’t duplicate the text in your caption in the <code>alt</code> attribute.</p>
+									<p class="example-text">Don’t use the <code>p</code> tag for captions, although this has been an acceptable usage in the past, modern screen readers are optimised for HTML5 and will benefit from proper semantic mark up.</p>				
+								</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
