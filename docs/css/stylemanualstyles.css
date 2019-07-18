@@ -26,6 +26,7 @@ h2, h3 {
 .back-to-toc {
     float: right;
     margin-top: 1rem;
+    margin-right: 1rem;
 }
 
 /* CT Example */
@@ -93,6 +94,12 @@ h2, h3 {
     border: 3px solid #FF635C;
     border-radius: 50%;
     background: url(../assets/img/outline-close-24px.svg);
+}
+
+/* CT Rationale */
+.rationale {
+    background-color: #f5f5f5;
+    padding: 1rem;    
 }
 
 /* CT More resources */
