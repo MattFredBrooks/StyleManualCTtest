@@ -152,7 +152,11 @@ h2 {
     margin-left: 2.5rem;
 }
 
-.checklist p, li {
+.checklist p {
+    margin-left: 4.1rem;
+}
+
+.checklist li {
     margin-left: 4.1rem;
 }
 
