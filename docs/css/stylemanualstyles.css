@@ -1,6 +1,10 @@
 /* General styles */
-h2, h3 {
+h2 {
     display: inline-block !important;
+}
+
+.normal-heading {
+    display: inline;
 }
 
 .first-subheading {
@@ -13,6 +17,10 @@ h2, h3 {
 
 .link-icon {
     margin-left: 1rem;
+}
+
+.rule-text-border {    
+    border-top: 2px solid #c5c5c5;
 }
 
 /* CT Abstract */
@@ -31,7 +39,7 @@ h2, h3 {
 
 /* CT Example */
 .example {    
-    margin: 2em 0 1.5rem;
+    margin: 2em 0 3rem;
     border: 3px solid #808080;
     border-radius: 4px;
 }
