@@ -23,7 +23,7 @@
 	</script>
 
 	<link rel="icon" href="assets/favicons/favicon.ico">
-	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<link type="text/css" rel="stylesheet" href="../css/main.css">
 
 	<!-- These are shivs to help modern html work in older internet explorer browsers -->
 	<!--[if lt IE 9]>
@@ -55,7 +55,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<a class="au-header__brand" href="#">
-						<img class="au-header__brand-image" alt="Insert alternate text here" src="assets/img/header-logo-agov.png">
+						<img class="au-header__brand-image" alt="Insert alternate text here" src="../assets/img/header-logo-agov.png">
 						<div class="au-header__text">
 						<h2 class="au-header__heading">Style Manual</h2>
 						<!-- <div class="au-header__subline">Simple explanation of the website</div> -->
@@ -88,12 +88,12 @@
 									Close
 								</button>
 								<ul class="au-link-list">
-									<li class="active"><a href="#">Home</a></li>
+									<li class="active"><a href="../index.html">Home</a></li>
 									<!-- <li><a href="content">Content page</a></li>
 									<li><a href="form">Form page</a></li>
 									<li><a href="#">Simple terms</a></li>
 									<li><a href="#">Distinct from eachother</a></li> -->
-									<li><a href="content_types">Content types</a></li>
+									<li><a href="../content_types">Content types</a></li>
 									<li><a href="../SM_rule_page/index.html">Rule page</a></li>
 									<li><a href="../SM_guide_page/index.html">Guidance page</a></li>
 									<li><a href="../SM_landing_page/index.html">Landing page</a></li>
@@ -110,95 +110,68 @@
 
 	<!-- MAIN BODY -->
 	<main id="content">
-		<!--CONTENT-->
-		<div class="au-body au-body--alt banner">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-sm-push-6">
-						<img class="au-responsive-media-img banner__image" src="assets/img/600x260.jpg" alt="Placeholder image 600x260">
-					</div>
-					<div class="col-xs-12 col-sm-6 col-sm-pull-6">
-						<h2>Hero callout</h2>
-						<p>Support the callout with some short explanatory text. You don't need more than a couple of sentences.</p>
-						<p>Use buttons to give your user a clear call to action about what to do next.</p>
-						<div class="btn-cta-group">
-							<a class="au-btn" href="#">Primary call to action</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<!--CONTENT-->	
 		<section class="au-body">
 			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<h2>Some highlighted content</h2>
-						<p>Explain some important information upfront, what is the product or service. What is the role of it. How does the user get started using it. Keep this text simple and informative. Vestibulum non consequat tellus.</p>
-
-						<p>Nullam sollicitudin orci neque, ut condimentum ipsum blandit eu. Praesent eu sagittis elit.</p>
-
-						<p>Nullam ut nibh sed nunc molestie faucibus. Integer pulvinar sapien in porta fringilla. Cras et velit fermentum, pretium lacus gravida, egestas mauris. Explain some important information upfront, what is the product or service. What is the role of it. How does the user get started using it. Keep this text simple and informative.</p>
-					</div>
+				<h2>Landing page</h2>
+				<div class="row">					
+					<ul class="au-card-list au-card-list--matchheight">		
+						<li class="col-sm-3 xol-xs-6">
+							<div class="au-card au-body au-card--shadow au-card--clickable" style="min-height: 24rem;">				
+								<div class="au-card__inner">
+									<h3 class="au-card__title"><a class="au-card--clickable__link" href="#">Title of article</a></h3>
+									<p>Some text</p>
+								</div>
+							</div>
+						</li>
+						<li class="col-sm-3 xol-xs-6">
+							<div class="au-card au-body au-card--shadow au-card--clickable">				
+								<div class="au-card__inner">
+									<h3 class="au-card__title"><a class="au-card--clickable__link" href="#">Title of article</a></h3>
+									<p>Some text</p>
+								</div>
+							</div>
+						</li>
+						<li class="col-sm-3 xol-xs-6">
+							<div class="au-card au-body au-card--shadow au-card--clickable">				
+								<div class="au-card__inner">
+									<h3 class="au-card__title"><a class="au-card--clickable__link" href="#">Title of article</a></h3>
+									<p>Some text</p>
+								</div>
+							</div>
+						</li>
+					</ul>
 				</div>
-			</div>
-		</section>
-		<section class="au-body au-body--alt banner">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<h2>Sub content</h2>
-						<p>Content that is important to have on the home page but not so important that it has to be visible at the top of the page. This could include contact information, more detailed explanation of the functionality of a product or service.</p>
-						<div class="btn-cta-group">
-							<a class="au-btn" href="#">Primary call to action</a>
-							<a class="au-btn au-btn--secondary" href="#">Secondary call to action</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="au-body">
-			<div class="container-fluid">
-				<div class="row">
-						<h2>Articles</h2>
-					<div class="col-md-12">
-						<div class="row">
-							<ul class="au-card-list au-card-list--matchheight ">
-								<li class="col-xs-12 col-sm-4">
-									<div class="au-card au-card--shadow au-card--centred au-card--clickable">
-										<img class="au-responsive-media-img" alt="placeholder image"
-												src="assets/img/600x260.jpg">
-										<div class="au-card__inner ">
-											<h2 class="au-card__title au-display-lg" type="heading"><a href="#"
-													class="au-card--clickable__link ">Card title</a></h2>
-											<p type="content" class="au-card__content">Additional text relating to the card.</p>
-										</div>
+
+				<div class="row">					
+						<ul class="au-card-list au-card-list--matchheight">		
+							<li class="col-sm-3 xol-xs-6">
+								<div class="au-card au-body au-card--shadow au-card--clickable" style="min-height: 24rem;">				
+									<div class="au-card__inner">
+										<h3 class="au-card__title"><a class="au-card--clickable__link" href="#">Title of article</a></h3>
+										<p>Some text</p>
 									</div>
-								</li>
-								<li class="col-xs-12 col-sm-4">
-									<div class="au-card  au-card--shadow au-card--centred au-card--clickable">
-										<img class="au-responsive-media-img"
-											alt="placeholder image" src="assets/img/600x260.jpg">
-										<div class="au-card__inner ">
-											<h2 class="au-card__title au-display-lg" type="heading"><a href="#"
-													class="au-card--clickable__link ">Card title</a></h2>
-											<p type="content" class="au-card__content">Additional text relating to the card.</p>
-										</div>
+								</div>
+							</li>
+							<li class="col-sm-3 xol-xs-6">
+								<div class="au-card au-body au-card--shadow au-card--clickable">				
+									<div class="au-card__inner">
+										<h3 class="au-card__title"><a class="au-card--clickable__link" href="#">Title of article</a></h3>
+										<p>Some text</p>
 									</div>
-								</li>
-								<li class="col-xs-12 col-sm-4">
-									<div class="au-card  au-card--shadow au-card--centred au-card--clickable">
-										<img class="au-responsive-media-img" alt="placeholder image"
-											src="assets/img/600x260.jpg">
-										<div class="au-card__inner ">
-										<h2 class="au-card__title au-display-lg" type="heading"><a href="#"
-													class="au-card--clickable__link ">Card title</a></h2>
-										<p type="content" class="au-card__content">Additional text relating to the card.</p>
+								</div>
+							</li>
+							<li class="col-sm-3 xol-xs-6">
+								<div class="au-card au-body au-card--shadow au-card--clickable">				
+									<div class="au-card__inner">
+										<h3 class="au-card__title"><a class="au-card--clickable__link" href="#">Title of article</a></h3>
+										<p>Some text</p>
 									</div>
 								</div>
 							</li>
 						</ul>
 					</div>
-				</div>
+
 			</div>
 		</section>
 		<!--END CONTENT-->
