@@ -25,7 +25,6 @@
 	<link rel="icon" href="../assets/favicons/favicon.ico">
 	<link type="text/css" rel="stylesheet" href="../css/main.css">
 	<link type="text/css" rel="stylesheet" href="../css/stylemanualstyles.css">
-	
 
 	<!-- These are shivs to help modern html work in older internet explorer browsers -->
 	<!--[if lt IE 9]>
@@ -54,10 +53,10 @@
 	<!-- HEADER -->
 	<header class="au-header au-header--dark" role="banner">
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row">				
 				<div class="col-md-12">
 
-					<!-- Search -->
+				<!-- Search -->
 				<div style="position: absolute;
 				right: 0;">						
 					<input type="email" class="au-text-input" id="email" name="email">
@@ -66,12 +65,12 @@
 					<button class="au-btn au-btn--dark" style="position: absolute; right: 0; border-radius: 0px 4px 4px 0px; border: 2px solid gray; padding-bottom: 10px;
 					">Search</button>
 				</div>
-
+				
 					<a class="au-header__brand" href="../index.html">
 						<img class="au-header__brand-image" alt="Insert alternate text here" src="../assets/img/header-logo-agov.png">
 						<div class="au-header__text">
 						<h1 class="au-header__heading">Style Manual</h1>
-						<!-- <div class="au-header__subline">Simple explaination of the website</div> -->
+						<!-- <div class="au-header__subline">Simple explanation of the website</div> -->
 						</div>
 					</a>
 				</div>
@@ -80,7 +79,7 @@
 	</header>
 
 	<!-- MAIN NAVIGATION -->
-	<nav class="au-main-nav au-main-nav--dark" id="mainmenu" aria-label="main">
+	<nav class="au-main-nav au-main-nav--dark" id="#mainmenu" aria-label="main">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
@@ -100,18 +99,12 @@
 									onClick="return AU.mainNav.Toggle( this )">
 									Close
 								</button>
-								<ul class="au-link-list">
-									<li><a href="../">Home</a></li>
-									<!-- <li class="active"><a href="#">Content page</a></li>
-									<li><a href="../form">Form page</a></li>
-									<li><a href="#">Simple terms</a></li>
-									<li><a href="#">Distinct from eachother</a></li> -->
-                                    <li><a href="../SM_content_types_page/index.html">Content types</a></li>
-									<li><a href="../SM_rule_page/index.html">Rule page</a></li>
-									<li><a href="../SM_guide_page/index.html">Guidance page</a></li>
-									<!-- <li><a href="../SM_landing_page/index.html">Landing page</a></li> -->
-									<li><a href="../SM_L2_Landing_Pages/index.html">L2 Landing pages</a></li>
-									<li><a href="../SM_L2_Landing_pages_sidenav/">L2 Landing pages side nav</a></li>
+								<ul class="au-link-list">									
+									<li class="active"><a href="#">Writing standards</a></li>
+									<li><a href="#">Visual design standards</a></li>
+									<li><a href="#">Publishing requirements</a></li>
+									<li><a href="#">Process guidance</a></li>		
+									<li><a href="#">Style guidance</a></li>
 								</ul>
 								<div class="au-main-nav__focus-trap-bottom"></div>
 							</div>
@@ -124,247 +117,165 @@
 	</nav>
 
 	<!-- MAIN BODY -->
-	<main>
-		<!--CONTENT-->
-		<section class="au-body">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-3">
+	<main id="content">
+		<!--CONTENT-->	
+		<section class="au-body au-body--alt banner" style="background-color: #f4f7f9">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-3">
 
-						<!-- Left hand navigation -->
-						<aside class="au-side-nav au-accordion" aria-label="side navigation">
-							<button
-								class="au-side-nav__toggle au-accordion__title au-accordion--closed"
-								aria-controls="nav-default"
-								aria-expanded="false"
-								aria-selected="false"
-								onclick="return AU.accordion.Toggle( this )"
-							>
-								In the content page section
-							</button>
-							<div id="nav-default" class="au-side-nav__content au-accordion--closed au-accordion__body">
-								<h2 class="au-sidenav__title">
-									<a href="#">Content page</a>
-								</h2>
-								<ul class="au-link-list">
-									<li><a href="#">Page link</a></li>
-									<li><a href="#">Page link</a>
+								<!-- Left hand navigation -->
+								<aside class="au-side-nav au-accordion" aria-label="side navigation">
+									<button
+										class="au-side-nav__toggle au-accordion__title au-accordion--closed"
+										aria-controls="nav-default"
+										aria-expanded="false"
+										aria-selected="false"
+										onclick="return AU.accordion.Toggle( this )"
+									>
+										In the content page section
+									</button>
+									<div id="nav-default" class="au-side-nav__content au-accordion--closed au-accordion__body">
+										<h2 class="au-sidenav__title">
+											<a href="#">Content page</a>
+										</h2>
 										<ul class="au-link-list">
-											<li class="active"><span>Content page example</span></li>
-											<li><a href="#">Child link</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Page link</a></li>
-									<li><a href="#">Page link</a></li>
-									<li><a href="#">Page link</a>
-										<ul class="au-link-list">
-											<li><a href="#">Child link</a>
+											<li><a href="#">Page link</a></li>
+											<li><a href="#">Page link</a>
 												<ul class="au-link-list">
-													<li><a href="#">Grandchild link</a></li>
-													<li><a href="#">Grandchild link</a></li>
+													<li class="active"><span>Content page example</span></li>
+													<li><a href="#">Child link</a></li>
 												</ul>
 											</li>
-											<li><a href="#">Child link</a></li>
-											<li><a href="#">Child link</a></li>
-										</ul>
-									</li>
-									</ul>
+											<li><a href="#">Page link</a></li>
+											<li><a href="#">Page link</a></li>
+											<li><a href="#">Page link</a>
+												<ul class="au-link-list">
+													<li><a href="#">Child link</a>
+														<ul class="au-link-list">
+															<li><a href="#">Grandchild link</a></li>
+															<li><a href="#">Grandchild link</a></li>
+														</ul>
+													</li>
+													<li><a href="#">Child link</a></li>
+													<li><a href="#">Child link</a></li>
+												</ul>
+											</li>
+											</ul>
+									</div>
+								</aside>
 							</div>
-						</aside>
-					</div>
 
-					<!-- Breadcrumbs -->
 					<div class="col-sm-8 col-md-offset-1" id="content">
-						<nav class="au-breadcrumbs" aria-label="breadcrumb">
-							<ul class="au-link-list au-link-list--inline">
-								<li><a href="../">Home</a></li>                                
-                                <li>Guidance page</li>
-							</ul>
-						</nav>
-
+						<!-- Breadcrumbs -->
+						<div id="content">
+							<nav class="au-breadcrumbs" aria-label="breadcrumb">
+								<ul class="au-link-list au-link-list--inline">
+									<li><a href="../">Home</a></li>                                
+									<li>Writing standards</li>
+								</ul>
+							</nav>
+						</div>					
+		
 						<!-- CT Abstract -->
-						<h1>Digital publications</h1>
+						<h1>Writing standards</h1>
 						<div class="abstract">
-							<p>
-                                Digital publishing is evolving
-								rapidly. This manual attempts to cover
-								the basics, but even these are likely to
-								be overtaken sooner or later by new
-								approaches.
-                            </p>
-                        </div>
+							<p>The following topics offer standards on the many elements that work together to achieve clarity and conformance in Australian government writing.</p>
+						</div>			
 
-						<!-- Table of contents -->
-						<nav class="au-inpage-nav-links" aria-label="in page navigation" id="toc">
-							<h2 class="au-inpage-nav-links__heading">Contents</h2>
-							
-							<ul class="au-link-list">
-								<li><a href="#section1">Types of digital publications</a></li>	
-								<li><a href="#section2">Preparing digital publications</a></li>	
-								<li><a href="#section3">Legal compliance and standards</a></li>	
-								<li><a href="#section4">More resources</a></li>						
-							</ul>
-						</nav>					
-						
-						<!-- CT Guidance -->
-						<h2 class="first-subheading" id="section1">Types of digital publications<a  href="#"><img class="link-icon" src="../assets/img/link-icon.svg"></a></h2>							
-						<h3>Portable formats</h3>
-						<p>
-                            Disks, CD-ROMs,
-							videos and other portable forms of
-							electronic publications need to be
-							distributed physically but are designed
-							to be viewed on screen.
-						</p>
-						<h3>Digitally delivered publications</h3>
-						<p>
-                            Accessed via the Internet or an
-							intranet, publications of this kind can
-							be designed either:
-						</p>
-						<ul>
-							<li>for viewing on screen and printing
-								out if the user wishes
-								or</li>
-							<li>specifically for use on screen rather
-								than for reading on paper.</li>
-						</ul>
-						<p style="margin-bottom: 3rem;">In this manual, screen-based
-							publication means material that is
-							designed primarily for use on screen
-							(whether delivered electronically or in a
-							portable format) and that exploits the
-							distinguishing characteristics of the
-							medium. Material designed for print
-							and merely digitised for electronic
-							delivery does not come within this
-							definition.</p>
+						<!-- Cards -->
+						<div class="container-fluid landing-cards-side-nav">
+							<div class="row">					
+								<ul class="au-card-list au-card-list--matchheight">		
+									<li class="col-xs-12 col-sm-4">
+										<div class="au-card au-body au-card--shadow au-card--clickable">		
+											<div class="au-card__inner">
+												<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">Grammar</a></h2>
+												<p>Grammar settles the order of words, the associations between them, and the meaning they create.</p>
+											</div>
+										</div>
+									</li>
+									<li class="col-xs-12 col-sm-4">
+										<div class="au-card au-body au-card--shadow au-card--clickable">		
+											<div class="au-card__inner">
+												<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">Spelling and preferred terms</a></h2>
+												<p>Some aspects of spelling are not systematically dealt with in dictionaries, and they are standarised here for government.</p>
+											</div>
+										</div>
+									</li>
+									<li class="col-xs-12 col-sm-4">
+										<div class="au-card au-body au-card--shadow au-card--clickable">		
+											<div class="au-card__inner">
+												<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">Capitalisation</a></h2>
+												<p>Like punctuation, capitalisation is being influenced by minimalist trends. Here we
+														provide standards, for a government audience.</p>
+											</div>
+										</div>
+									</li>						
+								</ul>
+							</div>
+			
+							<div class="row">					
+									<ul class="au-card-list au-card-list--matchheight">		
+										<li class="col-xs-12 col-sm-4">
+											<div class="au-card au-body au-card--shadow au-card--clickable">	
+												<div class="au-card__inner">
+													<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">Abbreviations</a></h2>
+													<p>There are three categories of shortened forms: words, phrases and symbols. Abbreviations are subsets of shortened words.</p>
+												</div>
+											</div>
+										</li>
+										<li class="col-xs-12 col-sm-4">
+											<div class="au-card au-body au-card--shadow au-card--clickable">	
+												<div class="au-card__inner">
+													<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">Numbers</a></h2>
+													<p>When using numbers in a publication their presentation for numerals, currency, dates and other time periods are considered.</p>
+												</div>
+											</div>
+										</li>
+										<li class="col-xs-12 col-sm-4">
+											<div class="au-card au-body au-card--shadow au-card--clickable">	
+												<div class="au-card__inner">
+													<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">Punctuation</a></h2>
+													<p>Punctuation marks provide clear meaning by showing readers the relationship between the various components of a written work.</p>
+												</div>
+											</div>
+										</li>							
+									</ul>
+								</div>
 
-					<!-- CT Guidance -->
-					<a class="back-to-toc" href="#toc">Back to contents ^</a>
-					<h2 id="section2">Preparing digital publications<a  href="#"><img class="link-icon" src="../assets/img/link-icon.svg"></a></h2>					
-					<h3>Readers’ expectations</h3>
-					<p>
-						Readers expect
-						that on-screen publications will use the
-						medium’s capabilities wherever
-						relevant—which may include, for
-						example, interactivity, electronic links
-						and animation. They
-						also expect material on a web site to be
-						kept up to date.
-					</p>
-					<h3>Screen characteristics</h3>
-					<p>
-						The size, shape
-						and other characteristics of screens
-						must be considered. For instance, the
-						horizontal configuration of most
-						current desktop screens does not suit
-						the vertical design of most printed
-						material, and most users will not be
-						able to see all of a traditional
-						A4 page on screen without scrolling.
-						Reading on screen can also be more
-						tiring than reading printed text because
-						of the screen’s emitted light, flickering
-						and pixelation.
-					</p>
-					<img src="../assets/img/photo-computer-screen.jpg" alt="Woman looking at computer screen.">
-					<h3>Structuring, writing and designing
-						digital publications</h3>
-					<p>
-						These activities
-						require an understanding of the
-						differences in reading patterns for
-						printed and on-screen material. For
-						example, users of on-screen material
-						tend to skim rather than to read
-						closely; because of electronic links,
-						they may not read the material
-						sequentially; and their eye movement
-						patterns differ from those employed for
-						reading paper-based publications, with
-						a greater focus on the central part of
-						the screen. 
-					</p>
-					<p style="margin-bottom: 3rem;">
-						Screenbased
-						material is also best divided into
-						small, independent units linked
-						logically to associated material
-						. The conceptual design,
-						organisation and linking of screenbased
-						material—often referred to as
-						‘information architecture’—thus needs
-						to be undertaken in an integrated
-						manner.
-					</p>
-
-					<!-- CT Guidance -->
-					<a class="back-to-toc" href="#toc">Back to contents ^</a>
-					<h2 id="section3">Legal compliance and standards<a  href="#"><img class="link-icon" src="../assets/img/link-icon.svg"></a></h2>					
-					<p>
-							The
-							<a href="#">Commonwealth’s requirements for
-									online publishing</a> are discussed in the publishing section of this manual. Among the matters
-							that need to be taken into account are
-							copyright; equity of access; metadata
-							standards; international identification
-							and cataloguing systems; publication
-							lodgment; and legislative provisions
-							relating to privacy, defamation,
-							contempt, trademarks and trade
-							practices. Details of compliance
-							requirements for Commonwealth
-							online publications can be found
-							in the <a href="#">Content Guide</a>.
-					</p>
-
-					<!-- CT Checklist -->
-					<div class="checklist">
-						<h3>Checklist</h3>							
-						<div>
-							<img class="check-tick" src="../assets/img/fat_tick.png" alt="">
-							<h4>Screen readers</h4>
+								<div class="row">					
+										<ul class="au-card-list au-card-list--matchheight">		
+											<li class="col-xs-12 col-sm-4">
+												<div class="au-card au-body au-card--shadow au-card--clickable">	
+													<div class="au-card__inner">
+														<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">References and citations</a></h2>
+														<p>References and citation satisfy clarity,
+																accuracy and consistency. They are affected by the nature of the work and the method of citation chosen.</p>
+													</div>
+												</div>
+											</li>
+											<li class="col-xs-12 col-sm-4">
+												<div class="au-card au-body au-card--shadow au-card--clickable">	
+													<div class="au-card__inner">
+														<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">Formatting text</a></h2>
+														<p>Formatted text has styling information beyond the minimum of semantic elements: colours, styles, sizes, and HTML (such as hyperlinks).</p>
+													</div>
+												</div>
+											</li>
+											<li class="col-xs-12 col-sm-4">
+												<div class="au-card au-body au-card--shadow au-card--clickable">	
+													<div class="au-card__inner">
+														<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">People and places</a></h2>
+														<p>Standards to signify
+																respect for a particular position or organisation or to draw a distinction between
+																two entities.</p>
+													</div>
+												</div>
+											</li>							
+										</ul>
+									</div>
 						</div>
-						<p>Screen readers are an assistive technology that helps users who are blind, visually impaired or have reading difficulties.</p>
-						<p>People use screen readers to navigate and understand web pages through a combination of:</p>
-						<ul>
-							<li>reading the content of the web page in a linear order</li>
-							<li>moving around the page through headings, links and form elements</li>
-						</ul>
-						<div>
-							<img class="check-tick" src="../assets/img/fat_tick.png" alt="">
-							<h4>Compliance</h4>
-						</div>
-						<p>All agencies must comply with the Web Content Accessibility Guidelines 2.0 (<a href="#">WCAG 2.0</a>) outlines ways to make digital content accessible to the broadest population.</p>
-						<p>The <a href="#">Australian Government Digital Service Standard</a> requires conformance to WCAG 2.0 level AA, which includes level A. There are 38 criteria that apply at level AA, plus some from level AAA we recommend.</p>
-						<p>Content authors are primarily responsible for 17 criteria.</p>
-					</div>
-
-					<!-- CT More resources -->
-					<a class="back-to-toc" href="#toc">Back to contents ^</a>
-					<h2 id="section4">More resources<a  href="#"><img class="link-icon" src="../assets/img/link-icon.svg"></a></h2>					
-					<div class="more-resources-links">
-						<a href="#">PDF Techniques for WCAG 2.0</a>
-						<p>Guidance on how to improve PDF accessibitliy from W3C.</p>
-						<a href="#">Accessibility for Adobe Acrobat</a>
-						<p>Guidance on how to improve PDF accessibitliy from Adobe.</p>
-					</div>
-
-					<!-- CT Source attribution -->
-					<div class="source-attribution">
-						<div>
-							<p>Co-created by</p>
-							<p>Last updated</p>							
-						</div>
-						<div>
-							<p>Department of the Prime Minister and Cabinet</p>
-							<p>May 2018</p>
-						</div>
-					</div>
-					<!-- Main content body end -->
 					</div>
 				</div>
 			</div>
@@ -395,7 +306,7 @@
 	</footer>
 
 	<!-- The javascript from pancake to open and close side nav on desktop -->
-	<script type="text/javascript" src="../js/script.min.js"></script>
+	<script type="text/javascript" src="js/script.min.js"></script>
 </body>
 
 </html>
