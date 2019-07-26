@@ -38,6 +38,13 @@
     background-color: #ffe8fe;
 }
 
+.search {
+    position: absolute;
+    right: 0;
+    background-color: #00698f;
+}
+
+/* Design system overrides */
 .au-card-list {
     margin-block-start: 0;
     margin-block-end: 2rem;
@@ -55,7 +62,6 @@ h2 .au-card--clickable__link {
     font-size: x-large;
 }
 
-/* Design system overrides */
 .au-callout {
     margin-bottom: 3rem;
 }
@@ -77,6 +83,10 @@ h2 .au-card--clickable__link {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
     }
+}
+
+.au-text-input {
+    border-radius: 0;
 }
 
 /* CT Abstract */
