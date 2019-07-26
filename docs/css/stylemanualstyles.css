@@ -38,6 +38,23 @@
     background-color: #ffe8fe;
 }
 
+.au-card-list {
+    margin-block-start: 0;
+    margin-block-end: 2rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+.landing-cards {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+h2 .au-card--clickable__link {
+    font-size: x-large;
+}
+
 /* Design system overrides */
 .au-callout {
     margin-bottom: 3rem;
@@ -53,6 +70,13 @@
 
 .au-page-alerts--success {
     margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+.banner {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    }
 }
 
 /* CT Abstract */
