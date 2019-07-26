@@ -217,7 +217,7 @@
 
 .source-attribution p {
     font-size: small;
-    color: #636363;
+    /* color: #636363; */
 }
 
 .source-attribution div:nth-child(even) {
