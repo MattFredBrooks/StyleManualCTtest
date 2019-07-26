@@ -52,6 +52,13 @@
     margin-bottom: 6rem;
 }
 
+.landing-cards-side-nav {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 h2 .au-card--clickable__link {
     font-size: x-large;
 }
