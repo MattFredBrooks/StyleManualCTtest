@@ -100,21 +100,10 @@
 									onClick="return AU.mainNav.Toggle( this )">
 									Close
 								</button>
-								<ul class="au-link-list">
-									<!-- <li class="active"><a href="#">Home</a></li>						 -->
-									<!-- <li><a href="SM_content_types_page/index.html">Content types</a></li>
-									<li><a href="SM_rule_page/index.html">Rule page</a></li>
-									<li><a href="SM_guide_page/index.html">Guidance page</a></li> -->
-									<!-- <li><a href="SM_landing_page/index.html">Landing page</a></li> -->
-									<!-- <li><a href="SM_L2_Landing_Pages/index.html">L2 cards</a></li>
-									<li><a href="SM_L2_Landing_pages_sidenav/">L2 cards & nav</a></li>
-									<li><a href="SM_L2_Landing_Pages_Zebra/">L2 zebra</a></li>
-									<li><a href="SM_L2_Landing_links_sidenav/">L2 links</a></li>
-									<li><a href="SM_L2_Landing_links_sidenav_all/">L2 links all</a></li> -->
-									
+								<ul class="au-link-list">								
 									<!-- Dropdown menu -->
-									<li class="dropdown">
-										<a class="dropbtn" onclick="myFunction1()">Content types
+									<li class="dropdown" onmouseover="myFunction1()" onmouseout="myFunction1o()">
+										<a class="dropbtn">Content types
 											<i class="fa fa-caret-down"></i>
 										</a>
 										<div class="dropdown-content" id="myDropdown1">
@@ -124,8 +113,8 @@
 										</div>
 									</li><!-- Dropdown menu end -->
 									<!-- Dropdown menu -->
-									<li class="dropdown">
-											<a class="dropbtn" onclick="myFunction2()">L1 landing pages
+									<li class="dropdown" onmouseover="myFunction2()" onmouseout="myFunction2o()">
+											<a class="dropbtn">L1 landing pages
 												<i class="fa fa-caret-down"></i>
 											</a>
 											<div class="dropdown-content" id="myDropdown2">
@@ -137,8 +126,8 @@
 											</div>
 										</li><!-- Dropdown menu end -->
 										<!-- Dropdown menu -->
-									<li class="dropdown">
-											<a class="dropbtn" onclick="myFunction3()">L2 landing pages
+									<li class="dropdown" onmouseover="myFunction3()" onmouseout="myFunction3o()">
+											<a class="dropbtn">L2 landing pages
 												<i class="fa fa-caret-down"></i>
 											</a>
 											<div class="dropdown-content" id="myDropdown3">
@@ -289,22 +278,14 @@
 			  document.getElementById("myDropdown3").classList.toggle("show");
 			}
 			
-			// Close the dropdown if the user clicks outside of it
-			window.onclick = function(e) {
-			  if (!e.target.matches('.dropbtn')) {
-			  var myDropdown1 = document.getElementById("myDropdown1");
-				if (myDropdown1.classList.contains('show')) {
-				  myDropdown1.classList.remove('show');
-				}
-				var myDropdown2 = document.getElementById("myDropdown2");
-				if (myDropdown2.classList.contains('show')) {
-				  myDropdown2.classList.remove('show');
-				}
-				var myDropdown3 = document.getElementById("myDropdown3");
-				if (myDropdown3.classList.contains('show')) {
-				  myDropdown3.classList.remove('show');
-				}
-			  }
+			function myFunction1o() {
+			  document.getElementById("myDropdown1").classList.toggle("show");
+			}
+			function myFunction2o() {
+			  document.getElementById("myDropdown2").classList.toggle("show");
+			}
+			function myFunction3o() {
+			  document.getElementById("myDropdown3").classList.toggle("show");
 			}
 			</script>
 	<!-- The javascript from pancake to open and close side nav on desktop -->
