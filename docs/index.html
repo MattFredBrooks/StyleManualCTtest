@@ -25,6 +25,7 @@
 	<link rel="icon" href="assets/favicons/favicon.ico">
 	<link type="text/css" rel="stylesheet" href="css/main.css">
 	<link type="text/css" rel="stylesheet" href="css/stylemanualstyles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- These are shivs to help modern html work in older internet explorer browsers -->
 	<!--[if lt IE 9]>
@@ -100,20 +101,53 @@
 									Close
 								</button>
 								<ul class="au-link-list">
-									<li class="active"><a href="#">Home</a></li>
-									<!-- <li><a href="content">Content page</a></li>
-									<li><a href="form">Form page</a></li>
-									<li><a href="#">Simple terms</a></li>
-									<li><a href="#">Distinct from eachother</a></li> -->
-									<li><a href="SM_content_types_page/index.html">Content types</a></li>
+									<!-- <li class="active"><a href="#">Home</a></li>						 -->
+									<!-- <li><a href="SM_content_types_page/index.html">Content types</a></li>
 									<li><a href="SM_rule_page/index.html">Rule page</a></li>
-									<li><a href="SM_guide_page/index.html">Guidance page</a></li>
+									<li><a href="SM_guide_page/index.html">Guidance page</a></li> -->
 									<!-- <li><a href="SM_landing_page/index.html">Landing page</a></li> -->
-									<li><a href="SM_L2_Landing_Pages/index.html">L2 cards</a></li>
+									<!-- <li><a href="SM_L2_Landing_Pages/index.html">L2 cards</a></li>
 									<li><a href="SM_L2_Landing_pages_sidenav/">L2 cards & nav</a></li>
 									<li><a href="SM_L2_Landing_Pages_Zebra/">L2 zebra</a></li>
 									<li><a href="SM_L2_Landing_links_sidenav/">L2 links</a></li>
-									<li><a href="SM_L2_Landing_links_sidenav_all/">L2 links all</a></li>
+									<li><a href="SM_L2_Landing_links_sidenav_all/">L2 links all</a></li> -->
+									
+									<!-- Dropdown menu -->
+									<li class="dropdown">
+										<a class="dropbtn" onclick="myFunction1()">Content types
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<div class="dropdown-content" id="myDropdown1">
+												<a href="SM_content_types_page/index.html">Content types</a>
+												<a href="SM_rule_page/index.html">Rule page</a>
+												<a href="SM_guide_page/index.html">Guidance page</a>
+										</div>
+									</li><!-- Dropdown menu end -->
+									<!-- Dropdown menu -->
+									<li class="dropdown">
+											<a class="dropbtn" onclick="myFunction2()">L1 landing pages
+												<i class="fa fa-caret-down"></i>
+											</a>
+											<div class="dropdown-content" id="myDropdown2">
+													<a href="SM_L2_Landing_Pages/index.html">L2 cards</a>
+													<a href="SM_L2_Landing_pages_sidenav/">L2 cards & nav</a>
+													<a href="SM_L2_Landing_Pages_Zebra/">L2 zebra</a>
+													<a href="SM_L2_Landing_links_sidenav/">L2 links</a>
+													<a href="SM_L2_Landing_links_sidenav_all/">L2 links all</a>
+											</div>
+										</li><!-- Dropdown menu end -->
+										<!-- Dropdown menu -->
+									<li class="dropdown">
+											<a class="dropbtn" onclick="myFunction3()">L2 landing pages
+												<i class="fa fa-caret-down"></i>
+											</a>
+											<div class="dropdown-content" id="myDropdown3">
+												<a href="#">Link 1</a>
+												<a href="#">Link 2</a>
+												<a href="#">Link 3</a>
+											</div>
+										</li><!-- Dropdown menu end -->
+
 								</ul>
 								<div class="au-main-nav__focus-trap-bottom"></div>
 							</div>
@@ -242,7 +276,37 @@
 				</section>
 			</div>
 	</footer>
-
+	<script>
+			/* When the user clicks on the button, 
+			toggle between hiding and showing the dropdown content */
+			function myFunction1() {
+			  document.getElementById("myDropdown1").classList.toggle("show");
+			}
+			function myFunction2() {
+			  document.getElementById("myDropdown2").classList.toggle("show");
+			}
+			function myFunction3() {
+			  document.getElementById("myDropdown3").classList.toggle("show");
+			}
+			
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function(e) {
+			  if (!e.target.matches('.dropbtn')) {
+			  var myDropdown1 = document.getElementById("myDropdown1");
+				if (myDropdown1.classList.contains('show')) {
+				  myDropdown1.classList.remove('show');
+				}
+				var myDropdown2 = document.getElementById("myDropdown2");
+				if (myDropdown2.classList.contains('show')) {
+				  myDropdown2.classList.remove('show');
+				}
+				var myDropdown3 = document.getElementById("myDropdown3");
+				if (myDropdown3.classList.contains('show')) {
+				  myDropdown3.classList.remove('show');
+				}
+			  }
+			}
+			</script>
 	<!-- The javascript from pancake to open and close side nav on desktop -->
 	<script type="text/javascript" src="js/script.min.js"></script>
 </body>
