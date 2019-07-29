@@ -38,6 +38,7 @@
     background-color: #ffe8fe;
 }
 
+/* Zebra landing page */
 .zebra-heading {
     font-size: x-large !important;
 }
@@ -60,7 +61,7 @@
 }
 
 .zebra-row:nth-child(even) {
-    background-color: #ebebeb;
+    background-color: #f4f7f9;
 }
 
 .zebra-topic p {
