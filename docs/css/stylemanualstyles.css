@@ -195,6 +195,11 @@ h2 .au-card--clickable__link {
     padding: 0em 1em 1em 2.7em;
 }
 
+.au-side-nav {
+    margin-bottom: 3rem !important;
+}
+
+/* SM content types */
 /* Example type Do/Don't */
 .example-heading-do-dont {
     font-weight: bold;

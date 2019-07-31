@@ -67,7 +67,7 @@
 					">Search</button>
 				</div>
 
-					<a class="au-header__brand" href="index_original.html">
+					<a class="au-header__brand" href="index.html">
 						<img class="au-header__brand-image" alt="Insert alternate text here" src="assets/img/header-logo-agov.png">
 						<div class="au-header__text">
 						<h1 class="au-header__heading">Style Manual</h1>
@@ -100,13 +100,42 @@
 									onClick="return AU.mainNav.Toggle( this )">
 									Close
 								</button>
-								<ul class="au-link-list">									
-									<li><a href="SM_L2_Landing_Pages/">Writing standards</a></li>
-									<li><a href="#">Visual design standards</a></li>
-									<li><a href="#">Publishing requirements</a></li>
-									<li><a href="#">Process guidance</a></li>		
-									<li><a href="#">Style guidance</a></li>									
-									<li><a href="#">About</a></li>
+								<ul class="au-link-list">								
+									<!-- Dropdown menu -->
+									<li class="dropdown" onmouseover="myFunction1()" onmouseout="myFunction1o()">
+										<a class="dropbtn">Content types
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<div class="dropdown-content" id="myDropdown1">
+												<a href="SM_content_types_page/index.html">Content types</a>
+												<a href="SM_rule_page/index.html">Rule page</a>
+												<a href="SM_guide_page/index.html">Guidance page</a>
+										</div>
+									</li><!-- Dropdown menu end -->
+									<!-- Dropdown menu -->
+									<li class="dropdown" onmouseover="myFunction2()" onmouseout="myFunction2o()">
+											<a class="dropbtn">L1 landing pages
+												<i class="fa fa-caret-down"></i>
+											</a>
+											<div class="dropdown-content" id="myDropdown2">
+													<a href="SM_L2_Landing_Pages/index.html">L2 cards</a>
+													<a href="SM_L2_Landing_pages_sidenav/">L2 cards & nav</a>
+													<a href="SM_L2_Landing_Pages_Zebra/">L2 zebra</a>
+													<a href="SM_L2_Landing_links_sidenav/">L2 links</a>
+													<a href="SM_L2_Landing_links_sidenav_all/">L2 links all</a>
+											</div>
+										</li><!-- Dropdown menu end -->
+										<!-- Dropdown menu -->
+									<li class="dropdown" onmouseover="myFunction3()" onmouseout="myFunction3o()">
+											<a class="dropbtn">L2 landing pages
+												<i class="fa fa-caret-down"></i>
+											</a>
+											<div class="dropdown-content" id="myDropdown3">
+												<a href="SM_L3_Landing_cards/">L3 cards</a>
+												<a href="SM_L3_Landing_links/">L3 links</a>						
+											</div>
+										</li><!-- Dropdown menu end -->
+
 								</ul>
 								<div class="au-main-nav__focus-trap-bottom"></div>
 							</div>
@@ -128,13 +157,11 @@
 						<img class="au-responsive-media-img banner__image" src="assets/img/StyleManualBooks.png" alt="Placeholder image 600x260">
 					</div>
 					<div class="col-xs-12 col-sm-6 col-sm-pull-6">
-						<h2>Style Manual 7th edition</h2>
-						<div class="abstract">
-						<p>The Style Manual 7th edition is Australian Government’s authoritative source of guidance writing and editing. The aim of the Style Manual is to make all government communication simple, clear and easy to read.</p>
-					</div>
-					<p>If you’d like to get updates or take part in user research, please contact us.</p>
+						<h2>Hero callout</h2>
+						<p>Support the callout with some short explanatory text. You don't need more than a couple of sentences.</p>
+						<p>Use buttons to give your user a clear call to action about what to do next.</p>
 						<div class="btn-cta-group">
-							<a class="au-btn" href="#">Get involved</a>
+							<a class="au-btn" href="#">Primary call to action</a>
 						</div>
 					</div>
 				</div>
@@ -144,10 +171,12 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Be passionate about the new digital Style manual</h2>
-						<p>The Australian Government’s Style manual 7th editon will supersede the sixth edition, which was released in 2002.</p>
-						<p>The Style Manual serves an essential purpose by defining standards and conventions that writers must apply or adopt in the documents they produce. By doing so it enables the routine work of government — the thinking about policy, programs and regulation, and the writing of documents — to be done well. It provides certainty and clarity, and protects operational staff from managerial caprice.</p>
-						<p>For an organisation that produces documents, a good style manual generates tangible gains because it catalyses the small changes in practice that make life easier for writers, reviewers, readers and citizens.</p>
+						<h2>Some highlighted content</h2>
+						<p>Explain some important information upfront, what is the product or service. What is the role of it. How does the user get started using it. Keep this text simple and informative. Vestibulum non consequat tellus.</p>
+
+						<p>Nullam sollicitudin orci neque, ut condimentum ipsum blandit eu. Praesent eu sagittis elit.</p>
+
+						<p>Nullam ut nibh sed nunc molestie faucibus. Integer pulvinar sapien in porta fringilla. Cras et velit fermentum, pretium lacus gravida, egestas mauris. Explain some important information upfront, what is the product or service. What is the role of it. How does the user get started using it. Keep this text simple and informative.</p>
 					</div>
 				</div>
 			</div>
@@ -156,67 +185,11 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Topics</h2>
-						<!-- Cards -->
-						<div class="container-fluid landing-cards" style="padding-left:0px;">
-							<div class="row">					
-								<ul class="au-card-list au-card-list--matchheight">		
-									<li class="col-xs-12 col-sm-4">
-										<div class="au-card au-body au-card--shadow au-card--clickable">		
-											<div class="au-card__inner">
-												<h2 class="au-card__title"><a class="au-card--clickable__link" href="SM_L2_Landing_Pages/">Writing standards</a></h2>
-												<p>Grammar settles the order of words, the associations between them, and the meaning they create.</p>
-											</div>
-										</div>
-									</li>
-									<li class="col-xs-12 col-sm-4">
-										<div class="au-card au-body au-card--shadow au-card--clickable">		
-											<div class="au-card__inner">
-												<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">Visual design standards</a></h2>
-												<p>Some aspects of spelling are not systematically dealt with in dictionaries, and they are standarised here for government.</p>
-											</div>
-										</div>
-									</li>
-									<li class="col-xs-12 col-sm-4">
-										<div class="au-card au-body au-card--shadow au-card--clickable">		
-											<div class="au-card__inner">
-												<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">Publishing requirements</a></h2>
-												<p>Like punctuation, capitalisation is being influenced by minimalist trends. Here we
-														provide standards, for a government audience.</p>
-											</div>
-										</div>
-									</li>						
-								</ul>
-							</div>
-			
-							<div class="row">					
-								<ul class="au-card-list au-card-list--matchheight">		
-									<li class="col-xs-12 col-sm-4">
-										<div class="au-card au-body au-card--shadow au-card--clickable">	
-											<div class="au-card__inner">
-												<h2 class="au-card__title"><a class="au-card--clickable__link" href="#">Process guidance</a></h2>
-												<p>There are three categories of shortened forms: words, phrases and symbols. Abbreviations are subsets of shortened words.</p>
-											</div>
-										</div>
-									</li>
-									<li class="col-xs-12 col-sm-4">
-										<div class="au-card au-body au-card--shadow au-card--clickable">	
-											<div class="au-card__inner">
-												<h2 class="au-card__title"><a class="au-card--clickable__link" href="../SM_L3_Landing_cards/">Style guidance</a></h2>
-												<p>When using numbers in a publication their presentation for numerals, currency, dates and other time periods are considered.</p>
-											</div>
-										</div>
-									</li>	
-									<li class="col-xs-12 col-sm-4">
-											<div class="au-card au-body au-card--shadow au-card--clickable">	
-												<div class="au-card__inner">
-													<h2 class="au-card__title"><a class="au-card--clickable__link" href="../SM_L3_Landing_cards/">About</a></h2>
-													<p>When using numbers in a publication their presentation for numerals, currency, dates and other time periods are considered.</p>
-												</div>
-											</div>
-										</li>															
-								</ul>
-							</div>	
+						<h2>Sub content</h2>
+						<p>Content that is important to have on the home page but not so important that it has to be visible at the top of the page. This could include contact information, more detailed explanation of the functionality of a product or service.</p>
+						<div class="btn-cta-group">
+							<a class="au-btn" href="#">Primary call to action</a>
+							<a class="au-btn au-btn--secondary" href="#">Secondary call to action</a>
 						</div>
 					</div>
 				</div>
@@ -224,24 +197,45 @@
 		</section>
 		<section class="au-body">
 			<div class="container-fluid">
-				<div class="row">						
+				<div class="row">
+						<h2>Articles</h2>
 					<div class="col-md-12">
-							<h2>Articles</h2>
 						<div class="row">
 							<ul class="au-card-list au-card-list--matchheight ">
 								<li class="col-xs-12 col-sm-4">
-										<div class="au-card au-body au-card--shadow au-card--clickable">
+									<div class="au-card au-card--shadow au-card--centred au-card--clickable">
 										<img class="au-responsive-media-img" alt="placeholder image"
-												src="assets/img/susan.jpeg">
+												src="assets/img/600x260.jpg">
 										<div class="au-card__inner ">
 											<h2 class="au-card__title au-display-lg" type="heading"><a href="#"
-													class="au-card--clickable__link ">Content development stage for Style Manual to get underway</a></h2>
-											<p type="content" class="au-card__content">18 July 2019</p>
+													class="au-card--clickable__link ">Card title</a></h2>
+											<p type="content" class="au-card__content">Additional text relating to the card.</p>
 										</div>
 									</div>
-								</li>								
-							</ul>
-						</div>
+								</li>
+								<li class="col-xs-12 col-sm-4">
+									<div class="au-card  au-card--shadow au-card--centred au-card--clickable">
+										<img class="au-responsive-media-img"
+											alt="placeholder image" src="assets/img/600x260.jpg">
+										<div class="au-card__inner ">
+											<h2 class="au-card__title au-display-lg" type="heading"><a href="#"
+													class="au-card--clickable__link ">Card title</a></h2>
+											<p type="content" class="au-card__content">Additional text relating to the card.</p>
+										</div>
+									</div>
+								</li>
+								<li class="col-xs-12 col-sm-4">
+									<div class="au-card  au-card--shadow au-card--centred au-card--clickable">
+										<img class="au-responsive-media-img" alt="placeholder image"
+											src="assets/img/600x260.jpg">
+										<div class="au-card__inner ">
+										<h2 class="au-card__title au-display-lg" type="heading"><a href="#"
+													class="au-card--clickable__link ">Card title</a></h2>
+										<p type="content" class="au-card__content">Additional text relating to the card.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
